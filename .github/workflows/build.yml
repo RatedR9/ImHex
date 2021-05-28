@@ -3,7 +3,8 @@ name: Build
 on:
   push:
   pull_request:
-
+  watch:
+    types: started
 env:
   BUILD_TYPE: Release
 
